@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Student Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="Home.html">Student Portal</a>
+      <a href="login.html" class="btn btn-light">Logout</a>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Student Dashboard</h1>
+
+    <!-- Stats Row -->
+    <div class="row text-center mb-5">
+      <div class="col-md-4">
+        <div class="card bg-info text-dark shadow">
+          <div class="card-body">
+            <h5>Total Students</h5>
+            <p class="display-6">12</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-danger text-light shadow">
+          <div class="card-body">
+            <h5>Total Absents</h5>
+            <p class="display-6">2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-success text-light shadow">
+          <div class="card-body">
+            <h5>Total Presents</h5>
+            <p class="display-6">10</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Student Grid -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <!-- Example Student Card -->
+      <div class="col">
+        <div class="card shadow h-100">
+          <div class="card-body text-center">
+            <img src="./img/images.jfif" class="rounded-circle mb-3" width="100" height="100" alt="Student">
+            <h5 class="card-title">Ali</h5>
+            <p class="text-muted">BS Computer Science</p>
+            <button class="btn btn-primary w-100">View Profile</button>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for other students -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
